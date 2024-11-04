@@ -1,0 +1,562 @@
+[{
+  "_id": "algrand@gmail.com",
+  "restaurantName": "Al-Grand",
+  "rating": 0,
+  "isApproved": "APPROVED",
+  "type": "BOTH",
+  "category": "FAST_FOOD",
+  "location": "Chennai",
+  "contactNumber": "7305448828",
+  "restaurantImageFileName": "34bc2bf3-2519-4ea2-b3ed-90885dec850e_food3.jpeg",
+  "restaurantMenuList": [
+    {
+      "_id": "1",
+      "restaurantEmailId": "algrand@gmail.com",
+      "itemName": "Chicken Briyani",
+      "description": "A little bit of spice, a whole lot of flavor...",
+      "itemCategory": "MAIN_COURSE",
+      "itemType": "NON_VEG",
+      "price": 250,
+      "menuImageFileName": "325dfd28-83b2-4472-8c1c-1e083b460100_chicken-biryani.jpg",
+      "availableCount": 9,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "2",
+      "restaurantEmailId": "algrand@gmail.com",
+      "itemName": "Mutton briyani",
+      "description": "Whenever I'm feeling low, I just pep myself with some good biryani.",
+      "itemCategory": "MAIN_COURSE",
+      "itemType": "NON_VEG",
+      "price": 300,
+      "menuImageFileName": "0110021e-3b9f-476f-a00f-210ad94fe1de_mutton-briyani.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "3",
+      "restaurantEmailId": "algrand@gmail.com",
+      "itemName": "Shrimph fried rice ",
+      "description": "Fried rice is a dish of cooked rice that has been stir-fried",
+      "itemCategory": "MAIN_COURSE",
+      "itemType": "NON_VEG",
+      "price": 350,
+      "menuImageFileName": "1bd865e1-c76c-4189-8c7e-bc3511f8ef99_shrimp-friedrice.jpg",
+      "availableCount": 15,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "4",
+      "restaurantEmailId": "algrand@gmail.com",
+      "itemName": "Brownie ",
+      "description": "Life is better with a freshly baked brownie in hand.",
+      "itemCategory": "DESSERT",
+      "itemType": "VEG",
+      "price": 100,
+      "menuImageFileName": "5a8c5649-517a-4df8-a9ca-eb68569d91a4_brownie-ic.jpg",
+      "availableCount": 15,
+      "isAvailable": true,
+      "quantity": 0
+    }
+  ],
+  "orderDetailsList": [
+    {
+      "_id": {
+        "$oid": "67164027d48e2030f081bb37"
+      },
+      "userEmailId": "nivetha2315@gmail.com",
+      "restaurantEmailId": "algrand@gmail.com",
+      "restaurantName": "Al-Grand",
+      "orderedItems": [
+        {
+          "_id": "1",
+          "restaurantEmailId": "algrand@gmail.com",
+          "itemName": "Chicken Briyani",
+          "description": "A little bit of spice, a whole lot of flavor...",
+          "itemCategory": "MAIN_COURSE",
+          "itemType": "NON_VEG",
+          "price": 250,
+          "menuImageFileName": "325dfd28-83b2-4472-8c1c-1e083b460100_chicken-biryani.jpg",
+          "availableCount": 10,
+          "isAvailable": true,
+          "quantity": 1
+        }
+      ],
+      "status": "PENDING",
+      "phone": "7894561239",
+      "address": "45,Shenoy nager",
+      "city": "Nagercoil",
+      "state": "Tamilnadu",
+      "zip": "789654",
+      "landMark": "park",
+      "totalAmount": 250
+    }
+  ],
+  "_class": "com.foodapp.foodAppData.model.Restaurant"
+},
+{
+  "_id": "logambal18g182@gmail.com",
+  "restaurantName": "The curry ",
+  "rating": 0,
+  "isApproved": "APPROVED",
+  "type": "NON_VEG",
+  "category": "CASUAL_DINING",
+  "location": "Kanyakumari",
+  "contactNumber": "7305448828",
+  "restaurantImageFileName": "3ab7536f-c483-48da-bc2c-a8e1715edad6_res3.jpg",
+  "restaurantMenuList": [
+    {
+      "_id": "1",
+      "restaurantEmailId": "logambal18g182@gmail.com",
+      "itemName": "Non Veg meals",
+      "description": "Part of the secret of success is to eat ",
+      "itemCategory": "MAIN_COURSE",
+      "itemType": "NON_VEG",
+      "price": 250,
+      "menuImageFileName": "87fd7712-8bb4-4122-98c7-e2804da034c2_meals-non-veg.jpg",
+      "availableCount": 20,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "2",
+      "restaurantEmailId": "logambal18g182@gmail.com",
+      "itemName": "prawn curry",
+      "description": "This prawn dish is like a hug for my taste buds",
+      "itemCategory": "STARTER",
+      "itemType": "NON_VEG",
+      "price": 300,
+      "menuImageFileName": "3d20f725-1338-49a5-a56e-9a6aac23e23a_prawn-curry.jpg",
+      "availableCount": 8,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "3",
+      "restaurantEmailId": "logambal18g182@gmail.com",
+      "itemName": "Chicken tikka",
+      "description": "It is traditionally small pieces of boneless chicken",
+      "itemCategory": "STARTER",
+      "itemType": "NON_VEG",
+      "price": 150,
+      "menuImageFileName": "e416acbe-e415-4bc9-83e1-e0e9eb608b34_mutton-tikka.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "4",
+      "restaurantEmailId": "logambal18g182@gmail.com",
+      "itemName": "Mutton rogan",
+      "description": "Mutton rogan josh is my first preference",
+      "itemCategory": "STARTER",
+      "itemType": "NON_VEG",
+      "price": 400,
+      "menuImageFileName": "11b7262b-d7e2-4a61-b5d0-8eaa60b94946_mutton-rogan-josh.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "5",
+      "restaurantEmailId": "logambal18g182@gmail.com",
+      "itemName": "Orange cake",
+      "description": "Cake is happiness!...",
+      "itemCategory": "DESSERT",
+      "itemType": "VEG",
+      "price": 150,
+      "menuImageFileName": "d1797aae-6bb7-411c-bb8d-985987ec10f6_cake1.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    }
+  ],
+  "orderDetailsList": [
+    {
+      "_id": {
+        "$oid": "671638b6d48e2030f081bb34"
+      },
+      "userEmailId": "nivetha2315@gmail.com",
+      "restaurantEmailId": "logambal18g182@gmail.com",
+      "restaurantName": "The curry ",
+      "orderedItems": [
+        {
+          "_id": "2",
+          "restaurantEmailId": "logambal18g182@gmail.com",
+          "itemName": "prawn curry",
+          "description": "This prawn dish is like a hug for my taste buds",
+          "itemCategory": "STARTER",
+          "itemType": "NON_VEG",
+          "price": 300,
+          "menuImageFileName": "3d20f725-1338-49a5-a56e-9a6aac23e23a_prawn-curry.jpg",
+          "availableCount": 10,
+          "isAvailable": true,
+          "quantity": 1
+        }
+      ],
+      "status": "PENDING",
+      "phone": "7894561239",
+      "address": "45,Shenoy nager",
+      "city": "Nagercoil",
+      "state": "Tamilnadu",
+      "zip": "789654",
+      "landMark": "park",
+      "totalAmount": 300
+    },
+    {
+      "_id": {
+        "$oid": "67163af8d48e2030f081bb35"
+      },
+      "userEmailId": "nivetha2315@gmail.com",
+      "restaurantEmailId": "logambal18g182@gmail.com",
+      "restaurantName": "The curry ",
+      "orderedItems": [
+        {
+          "_id": "2",
+          "restaurantEmailId": "logambal18g182@gmail.com",
+          "itemName": "prawn curry",
+          "description": "This prawn dish is like a hug for my taste buds",
+          "itemCategory": "STARTER",
+          "itemType": "NON_VEG",
+          "price": 300,
+          "menuImageFileName": "3d20f725-1338-49a5-a56e-9a6aac23e23a_prawn-curry.jpg",
+          "availableCount": 9,
+          "isAvailable": true,
+          "quantity": 1
+        }
+      ],
+      "status": "PENDING",
+      "phone": "7894561239",
+      "address": "45,Shenoy nager",
+      "city": "Nagercoil",
+      "state": "Tamilnadu",
+      "zip": "789654",
+      "landMark": "park",
+      "totalAmount": 300
+    }
+  ],
+  "_class": "com.foodapp.foodAppData.model.Restaurant"
+},
+{
+  "_id": "nivetha2315@gmail.com",
+  "restaurantName": "Wow momos",
+  "rating": 0,
+  "isApproved": "APPROVED",
+  "type": "NON_VEG",
+  "category": "FAST_FOOD",
+  "location": "Chennai",
+  "contactNumber": "7894569632",
+  "restaurantImageFileName": "409364fb-ca80-428a-a80d-dcef7c4c801d_res4.jpg",
+  "restaurantMenuList": [
+    {
+      "_id": "1",
+      "restaurantEmailId": "nivetha2315@gmail.com",
+      "itemName": "Seekh kebab",
+      "description": "Indulging in the juiciest kebabs in town! ...",
+      "itemCategory": "STARTER",
+      "itemType": "NON_VEG",
+      "price": 200,
+      "menuImageFileName": "26dbaba0-ca04-452b-9000-235d4594bc9b_seekh-kebab.jpg",
+      "availableCount": 20,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "2",
+      "restaurantEmailId": "nivetha2315@gmail.com",
+      "itemName": "Tandoori chicken",
+      "description": "a dish made from chicken marinated in yogurt",
+      "itemCategory": "STARTER",
+      "itemType": "NON_VEG",
+      "price": 400,
+      "menuImageFileName": "6a1566ee-87bc-4d2a-888c-cba0ccd6eccf_tandoori-chicken.jpg",
+      "availableCount": 8,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "3",
+      "restaurantEmailId": "nivetha2315@gmail.com",
+      "itemName": "Roti",
+      "description": "Not having control on fear is failure",
+      "itemCategory": "MAIN_COURSE",
+      "itemType": "VEG",
+      "price": 150,
+      "menuImageFileName": "87565390-b9a5-4dbf-825a-353e4b7f3516_roti.jpg",
+      "availableCount": 30,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "4",
+      "restaurantEmailId": "nivetha2315@gmail.com",
+      "itemName": "Lamb vindaloo",
+      "description": "a spicy Indian curry dish that is known for its bold",
+      "itemCategory": "STARTER",
+      "itemType": "NON_VEG",
+      "price": 600,
+      "menuImageFileName": "98e3274d-ec9a-42a0-b579-89824790b3fc_lamb-vindaloo.jpg",
+      "availableCount": 15,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "5",
+      "restaurantEmailId": "nivetha2315@gmail.com",
+      "itemName": "Lamb chops",
+      "description": "In the midst of chaos, there is also lamb chops....",
+      "itemCategory": "STARTER",
+      "itemType": "NON_VEG",
+      "price": 400,
+      "menuImageFileName": "73b518a9-3d73-4f2c-8f8f-63a1346ed296_lamb-chops.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    }
+  ],
+  "orderDetailsList": [
+    {
+      "_id": {
+        "$oid": "6716373dd48e2030f081bb32"
+      },
+      "userEmailId": "nivetha2315@gmail.com",
+      "restaurantEmailId": "nivetha2315@gmail.com",
+      "restaurantName": "Wow momos",
+      "orderedItems": [
+        {
+          "_id": "2",
+          "restaurantEmailId": "nivetha2315@gmail.com",
+          "itemName": "Tandoori chicken",
+          "description": "a dish made from chicken marinated in yogurt and spices and roasted in a tandoor, a cylindrical clay oven.",
+          "itemCategory": "STARTER",
+          "itemType": "NON_VEG",
+          "price": 400,
+          "menuImageFileName": "6a1566ee-87bc-4d2a-888c-cba0ccd6eccf_tandoori-chicken.jpg",
+          "availableCount": 10,
+          "isAvailable": true,
+          "quantity": 1
+        }
+      ],
+      "status": "PENDING",
+      "phone": "7894561239",
+      "address": "45,Shenoy nager",
+      "city": "Nagercoil",
+      "state": "Tamilnadu",
+      "zip": "789654",
+      "landMark": "park",
+      "totalAmount": 400
+    },
+    {
+      "_id": {
+        "$oid": "6716381bd48e2030f081bb33"
+      },
+      "userEmailId": "nivetha2315@gmail.com",
+      "restaurantEmailId": "nivetha2315@gmail.com",
+      "restaurantName": "Wow momos",
+      "orderedItems": [
+        {
+          "_id": "2",
+          "restaurantEmailId": "nivetha2315@gmail.com",
+          "itemName": "Tandoori chicken",
+          "description": "a dish made from chicken marinated in yogurt",
+          "itemCategory": "STARTER",
+          "itemType": "NON_VEG",
+          "price": 400,
+          "menuImageFileName": "6a1566ee-87bc-4d2a-888c-cba0ccd6eccf_tandoori-chicken.jpg",
+          "availableCount": 9,
+          "isAvailable": true,
+          "quantity": 1
+        }
+      ],
+      "status": "PENDING",
+      "phone": "7894561239",
+      "address": "45,Shenoy nager",
+      "city": "Nagercoil",
+      "state": "Tamilnadu",
+      "zip": "789654",
+      "landMark": "park",
+      "totalAmount": 400
+    }
+  ],
+  "_class": "com.foodapp.foodAppData.model.Restaurant"
+},
+{
+  "_id": "ajaynithin0404@gmail.com",
+  "restaurantName": "A2B",
+  "rating": 0,
+  "isApproved": "APPROVED",
+  "type": "VEG",
+  "category": "CASUAL_DINING",
+  "location": "Chennai",
+  "contactNumber": "7896452134",
+  "restaurantImageFileName": "99ab110c-3a6b-4ab5-b524-3ece4142d138_res2.jpg",
+  "restaurantMenuList": [
+    {
+      "_id": "1",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Dosa",
+      "description": "Crispy, crunchy, and utterly delicious! # ...",
+      "itemCategory": "MAIN_COURSE",
+      "itemType": "VEG",
+      "price": 150,
+      "menuImageFileName": "861d9377-8098-4a98-aa50-dc214ff2a94c_dosa.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "2",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Aloo tika",
+      "description": "Aloo Tikki is a very popular snack ",
+      "itemCategory": "STARTER",
+      "itemType": "VEG",
+      "price": 150,
+      "menuImageFileName": "e285ca38-2571-479a-af08-bdf99ce909de_aloo-tikki.jpg",
+      "availableCount": 9,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "3",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Bhel puri",
+      "description": "A savoury snack originally from India",
+      "itemCategory": "STARTER",
+      "itemType": "VEG",
+      "price": 100,
+      "menuImageFileName": "c23a12ad-9c8f-4d7b-bbc1-8eb140d7c0fe_bhel-puri.jpg",
+      "availableCount": 15,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "4",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Palak paneer",
+      "description": "paneer simmered in a smooth spicy and delicious",
+      "itemCategory": "STARTER",
+      "itemType": "VEG",
+      "price": 50,
+      "menuImageFileName": "48408274-8c62-4c09-8c54-dc5b0ff60448_palak-paneer.jpg",
+      "availableCount": 15,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "5",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Paneer tikka",
+      "description": "Paneer lovers unite! ...",
+      "itemCategory": "STARTER",
+      "itemType": "VEG",
+      "price": 150,
+      "menuImageFileName": "10d05102-d7f8-4cab-bb53-b27119a801b0_paneer1.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "6",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Coconut rice",
+      "description": "Coconuts make everything better. ",
+      "itemCategory": "MAIN_COURSE",
+      "itemType": "VEG",
+      "price": 200,
+      "menuImageFileName": "7a9d7100-4fb1-42d2-9c6a-41423714a147_coconut-rice.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "7",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Dal tadka",
+      "description": " A process of frying & blooming spices",
+      "itemCategory": "STARTER",
+      "itemType": "VEG",
+      "price": 250,
+      "menuImageFileName": "87ade747-f8a7-4bf8-94e6-0b87fd53792e_dal-tadka.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "8",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Idly-Sambar",
+      "description": "Idli is a healthy breakfast that is served",
+      "itemCategory": "MAIN_COURSE",
+      "itemType": "VEG",
+      "price": 50,
+      "menuImageFileName": "b6b072ba-aee1-4efe-8cec-3b443c52ce7b_Idli.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "9",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Pongal",
+      "description": "Pongal is delicious ",
+      "itemCategory": "MAIN_COURSE",
+      "itemType": "VEG",
+      "price": 50,
+      "menuImageFileName": "f6473331-5f84-4894-bdc7-f6e6574fab48_pongal.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    },
+    {
+      "_id": "10",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "itemName": "Aloo gobi ",
+      "description": "Anyone can cook aloo gobi",
+      "itemCategory": "STARTER",
+      "itemType": "VEG",
+      "price": 150,
+      "menuImageFileName": "99061623-8c69-4005-a14c-e565fad3a341_aloo-gobi.jpg",
+      "availableCount": 10,
+      "isAvailable": true,
+      "quantity": 0
+    }
+  ],
+  "orderDetailsList": [
+    {
+      "_id": {
+        "$oid": "67163e4ad48e2030f081bb36"
+      },
+      "userEmailId": "nivetha2315@gmail.com",
+      "restaurantEmailId": "ajaynithin0404@gmail.com",
+      "restaurantName": "A2B",
+      "orderedItems": [
+        {
+          "_id": "2",
+          "restaurantEmailId": "ajaynithin0404@gmail.com",
+          "itemName": "Aloo tika",
+          "description": "Aloo Tikki is a very popular snack ",
+          "itemCategory": "STARTER",
+          "itemType": "VEG",
+          "price": 150,
+          "menuImageFileName": "e285ca38-2571-479a-af08-bdf99ce909de_aloo-tikki.jpg",
+          "availableCount": 10,
+          "isAvailable": true,
+          "quantity": 1
+        }
+      ],
+      "status": "PENDING",
+      "phone": "7894561239",
+      "address": "45,Shenoy nager",
+      "city": "Nagercoil",
+      "state": "Tamilnadu",
+      "zip": "789654",
+      "landMark": "park",
+      "totalAmount": 150
+    }
+  ],
+  "_class": "com.foodapp.foodAppData.model.Restaurant"
+}]
